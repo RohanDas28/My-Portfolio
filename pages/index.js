@@ -26,8 +26,8 @@ const Home = () => {
       // Speed settings, try diffrent values untill you get good results
       startDelay: 100,
       typeSpeed: 25,
-      backSpeed: 15,
-      backDelay: 1500,
+      backSpeed: 25,
+      backDelay: 1800,
       smartBackspace: true,
       loop: true,
       showCursor: true,
