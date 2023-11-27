@@ -37,12 +37,11 @@ const Home = () => {
       typed.destroy();
     };
   }, []);
-  return <div className="bg-primary/60 h-full relative">
+  return <div className="bg-primary/60 h-full relative overflow-y-auto">
     <ParticlesContainer className="absolute top-0 left-0 right-0 bottom-0 z-[-1]" />
 
     <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10 relative">
-      <div className="text-center flex flex-col justify-center xl:pt-40 h-full container mx-auto">
-        {/* Image (visible only on XL devices) */}
+      <div className="text-center flex flex-col justify-center mt-32 md:mt-0 xl:pt-40 h-full container mx-auto">
         <motion.div variants={fadeIn('down', 0.2)} initial='hidden' animate='show' exit='hidden'>
           <Image
             src="/avatar.png"
@@ -60,7 +59,7 @@ const Home = () => {
         </motion.h1>
 
         {/* Subtitle */}
-        <motion.p variants={fadeIn('down', 0.3)} initial='hidden' animate='show' exit='hidden' className="text-xl max-w-sm xl:max-w-xl mx-auto mb-10 xl:mb-16">
+        <motion.p variants={fadeIn('down', 0.3)} initial='hidden' animate='show' exit='hidden' className="text-xl max-w-sm xl:max-w-xl mx-auto pb-40 md:pb-0 xl:mb-16">
           {randomQuote}
         </motion.p>
       </div>
