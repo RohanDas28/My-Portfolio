@@ -40,8 +40,8 @@ const Home = () => {
   return <div className="bg-primary/60 h-full relative overflow-y-auto">
     <ParticlesContainer className="absolute top-0 left-0 right-0 bottom-0 z-[-1]" />
 
-    <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10 relative">
-      <div className="text-center flex flex-col justify-center mt-32 md:mt-0 xl:pt-40 h-full container mx-auto">
+    <div className="w-full h-full pt-40 md:pt-0 bg-gradient-to-r from-primary/10 via-black/30 to-black/10 relative">
+      <div className="text-center flex flex-col justify-center md:mt-0 xl:pt-40 h-full container mx-auto">
         <motion.div variants={fadeIn('down', 0.2)} initial='hidden' animate='show' exit='hidden'>
           <Image
             src="/avatar.png"
