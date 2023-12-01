@@ -1,6 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FreeMode, Pagination, Autoplay } from 'swiper';
-import { RxCrop, RxPencil2, RxDesktop, RxReader, RxRocket, RxArrowTopRight} from "react-icons/rx";
+import { RxPencil2, RxCode, RxVideo, RxReader, RxArrowTopRight} from "react-icons/rx";
+import { TbBrandPython } from "react-icons/tb";
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
@@ -8,29 +9,29 @@ import 'swiper/css/pagination';
 // data
 const serviceData = [
   {
-    icon: <RxCrop />,
-    title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  },
-  {
     icon: <RxPencil2 />,
-    title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Graphic Design',
+    description: 'Crafting visually appealing designs tailored to your brand and message.',
   },
   {
-    icon: <RxDesktop />,
-    title: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    icon: <RxCode />,
+    title: 'Web Development',
+    description: 'Building responsive and dynamic websites for a seamless online presence.',
   },
   {
     icon: <RxReader />,
-    title: 'Copywriting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Content Writing',
+    description: 'Creating compelling and engaging written content to convey your ideas effectively.',
   },
   {
-    icon: <RxRocket />,
-    title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    icon: <RxVideo />,
+    title: 'Video Editing',
+    description: 'Editing and enhancing videos to captivate your audience and convey your story.',
+  },
+  {
+    icon: <TbBrandPython />,
+    title: 'Python Application',
+    description: 'Developing custom Python applications to meet your specific business needs.',
   },
 ];
 
