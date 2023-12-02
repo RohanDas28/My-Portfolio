@@ -10,21 +10,21 @@ import 'swiper/css/navigation';
 // testimonial data
 const TestimonialData = [
   {
-    image: '/t-avt-2.png',
+    image: '/avt-2.png',
     name: 'Vaqar Rehmani',
     position: 'CEO, Pixelnib',
     message:
       'I have had a chance to work with Rohan for many months. During the time we worked together he has been an amazing person along with being a skillful and self motivated developer. Rohan\'s curious attitude is a plus. It was a pleasure working together.',
   },
   {
-    image: '/t-avt-3.png',
+    image: '/avt-3.png',
     name: 'Pankaj Kumar',
     position: 'Frontend Developer',
     message:
       'We\'ve worked together on several projects and Rohan had been a great collaborator. He is very enthusiastic about his work. His ability to learn and adapt to any technology is what makes him a great fit for any developer role.',
   },
   {
-    image: '/t-avt-1.png',
+    image: '/avt-1.png',
     name: 'Abhishek Pathak',
     position: 'Frontend Developer',
     message:

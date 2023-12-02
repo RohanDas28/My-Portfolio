@@ -20,22 +20,23 @@ const aboutData = [
     info: [
       {
         title: 'Web Development',
-        icons: [<FaHtml5 />, <FaCss3 />, <FaJs />, <FaReact />, <SiNextdotjs />, <SiFramer />, <FaWordpress />,],
+        icons: [<FaHtml5 key="html" />, <FaCss3 key="css" />, <FaJs key="js" />, <FaReact key="react" />, <SiNextdotjs key="next" />, <SiFramer key="framer" />, <FaWordpress key="wordpress" />],
       },
       {
         title: 'Programming Languages',
-        icons: [<SiC />, <SiPython />, <SiCplusplus />, <SiPhp />],
+        icons: [<SiC key="c" />, <SiPython key="python" />, <SiCplusplus key="cplusplus" />, <SiPhp key="php" />],
       },
       {
         title: 'Tools and Platforms',
-        icons: [<SiLinux  />, <SiUbuntu  />, <SiGit />,<SiVisualstudiocode />,],
+        icons: [<SiLinux key="linux" />, <SiUbuntu key="ubuntu" />, <SiGit key="git" />, <SiVisualstudiocode key="vscode" />],
       },
       {
         title: 'UI/UX Design',
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />,<SiAdobephotoshop />,<SiAdobeaftereffects />,<SiAdobepremierepro />,<SiAdobeillustrator />,<SiAudacity />,],
+        icons: [<FaFigma key="figma" />, <SiAdobexd key="xd" />, <SiAdobephotoshop key="photoshop" />, <SiAdobepremierepro key="premierepro" />, <SiAdobeaftereffects key="aftereffects" />, <SiAdobeillustrator key="illustrator" />, <SiAudacity key="audacity" />],
       },
     ],
   },
+
   {
     title: 'experience',
     info: [
@@ -81,7 +82,7 @@ const About = () => {
       <div className="flex-1 flex flex-col justify-center ">
         <motion.h2 variants={fadeIn('right',0.2)} initial='hidden' animate='show' exit='hidden' className="h2">Crafting <span className="text-accent">&lt;dreams&gt;</span> into &lt;code/&gt;</motion.h2>
         <motion.p variants={fadeIn('right',0.4)} initial='hidden' animate='show' exit='hidden' className="text-sm md:text-lg max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
-        Embarking on my freelance developer journey seven years ago, I've seamlessly woven captivating stories into magnificent designs. Over the years, I've engaged in remote collaborations with agencies, contributed to impactful open-source projects, and played a pivotal role in crafting digital products for both business and consumer realms.
+        Embarking on my freelance developer journey seven years ago, I&apos;ve seamlessly woven captivating stories into magnificent designs. Over the years, I&apos;ve engaged in remote collaborations with agencies, contributed to impactful open-source projects, and played a pivotal role in crafting digital products for both business and consumer realms.
         </motion.p>
         {/* counters */}
         <motion.div variants={fadeIn('right',0.6)} initial='hidden' animate='show' exit='hidden' className="hidden md:flex md:max-w-xl xl:max-w-none mx-auto xl:mx-0 mb-8">
