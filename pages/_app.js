@@ -20,10 +20,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="keywords" content="rohan, rohan das, Rohan Das, rohandas, corvus, corvus sensei, rohan das youtube, codewithharry, rohandas codewithharry"/>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="language" content="English"/>
-        <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png"/>
-        <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png"/>
-        <link rel="icon" type="image/x-icon" href="./favicon-32x32.png"/>
-        <link rel="manifest" href="./site.webmanifest"/>
+        <link rel="shortcut icon" href="https://rohandas28.github.io/favicon-32x32.png" type="image/x-icon"/>
       </Head>
       <AnimatePresence mode='wait'>
         <motion.div key={router.route} className='h-full'>
