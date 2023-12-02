@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
         <meta name="keywords" content="rohan, rohan das, Rohan Das, rohandas, corvus, corvus sensei, rohan das youtube, codewithharry, rohandas codewithharry"/>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="language" content="English"/>
-        <link rel="shortcut icon" href="/favicon-32x32.png" type="image/x-icon"/>
+        <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/x-icon"/>
       </Head>
     <div className={`page bg-site text-white bg-cover bg-no-repeat ${sora.variable} font-sora relative`}>
       <Nav />
