@@ -11,6 +11,7 @@ import { SiNextdotjs, SiFramer, SiAdobexd, SiAdobephotoshop, SiPhp, SiC, SiPytho
 
 // Components
 import Circles from '../../components/Circles'
+import Bulb from "../../components/Bulb";
 
 //  data
 const aboutData = [
@@ -138,6 +139,7 @@ const About = () => {
           })}
         </div>
       </motion.div>
+      <Bulb/>
     </div>
   </div>;
 };
