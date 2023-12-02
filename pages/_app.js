@@ -1,6 +1,4 @@
 import '../styles/globals.css';
-import Head from 'next/head';
-
 // components
 import Layout from '../components/Layout';
 import Transition from '../components/Transition';
@@ -13,15 +11,6 @@ function MyApp({ Component, pageProps }) {
   const router = useRouter();
   return (
     <Layout>
-      <Head>
-        <title>Rohan Das | Passionate Coder with Imagination</title>
-        <meta property="og:title" content="Rohan Das | Passionate Coder with Imagination" key="title" />
-        <meta name="description" content="Rohan Das is young and passionate Python coder, who has a good command in Python, HTML, CSS."/>
-        <meta name="keywords" content="rohan, rohan das, Rohan Das, rohandas, corvus, corvus sensei, rohan das youtube, codewithharry, rohandas codewithharry"/>
-        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
-        <meta name="language" content="English"/>
-        <link rel="shortcut icon" href="https://rohandas28.github.io/favicon-32x32.png" type="image/x-icon"/>
-      </Head>
       <AnimatePresence mode='wait'>
         <motion.div key={router.route} className='h-full'>
           <Transition/>
