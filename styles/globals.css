@@ -49,3 +49,23 @@
     @apply w-full h-[180px] p-6 capitalize rounded-lg resize-none;
   }
 }
+/* For WebKit browsers (Chrome, Safari) */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 14px; /* Width of the scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent; /* Track background */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #6c1d8d; /* Purple color */
+  border-radius: 10px; /* Rounded corners */
+  border: 3px solid transparent; /* Adds spacing around the scrollbar thumb */
+}
+
+/* For Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin; /* Thin scrollbar */
+  scrollbar-color: #6c1d8d transparent; /* Thumb color and track color */
+}
