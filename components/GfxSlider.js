@@ -7,6 +7,7 @@ const workData = {
     {
       images: [
         { title: 'Copyright by Rohan Das', path: 'https://i.postimg.cc/y8ZC7Kkv/SHOWTOWN-3.jpg' },
+        { title: 'Copyright by Rohan Das', path: 'https://i.postimg.cc/Ss8fxFs4/SHOWTOWN-4.jpg' },
         { title: 'Copyright by Rohan Das', path: 'https://i.postimg.cc/MpCxBThC/Artboard-1.jpg' },
         { title: 'Copyright by Rohan Das', path: 'https://i.postimg.cc/RVbvMGGV/bank-rob.jpg' },
         { title: 'Copyright by Rohan Das', path: 'https://i.postimg.cc/SsrpHGJ4/Code.jpg' },
