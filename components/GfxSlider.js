@@ -12,7 +12,6 @@ const workData = {
         { title: 'Copyright by Rohan Das', path: 'https://i.postimg.cc/RVbvMGGV/bank-rob.jpg' },
         { title: 'Copyright by Rohan Das', path: 'https://i.postimg.cc/SsrpHGJ4/Code.jpg' },
         { title: 'Copyright by Rohan Das', path: 'https://i.postimg.cc/MTxSsLZt/desi-driver-ets2.jpg' },
-        { title: 'Copyright by Rohan Das', path: 'https://i.postimg.cc/L67Md56J/image-2.png' },
         { title: 'Copyright by Rohan Das', path: 'https://i.postimg.cc/RhZzmnHH/gtav3.jpg' },
         { title: 'Copyright by Rohan Das', path: 'https://i.postimg.cc/0yMPrmHG/btrp-pd.jpg' },
         { title: 'Copyright by Rohan Das', path: 'https://i.postimg.cc/SR1bxN6t/pd1.jpg' },
