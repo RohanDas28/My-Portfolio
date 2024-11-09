@@ -22,7 +22,24 @@ const Home = () => {
 
     // Typed js
     const typed = new Typed(el.current, {
-      strings: ["Hello","नमस्ते ","নমস্কার","ہیلو", "Hola", "Olá", "Привет",".... . .-.. .-.. ---",], // Strings to display
+      strings: [
+    "Hello",       // English
+    "नमस्ते",      // Hindi
+    "নমস্কার",     // Bengali
+    "ہیلو",        // Urdu
+    "Hola",        // Spanish
+    "Olá",         // Portuguese
+    "Привет",      // Russian
+    "你好",         // Chinese (Simplified)
+    "こんにちは",   // Japanese
+    "안녕하세요",    // Korean
+    "مرحبا",       // Arabic
+    "Γειά σου",    // Greek
+    "Ciao",        // Italian
+    "Salut",       // French
+    "ਸਤ ਸ੍ਰੀ ਅਕਾਲ",       // Punjabi
+],
+
       // Speed settings, try diffrent values untill you get good results
       startDelay: 100,
       typeSpeed: 25,
